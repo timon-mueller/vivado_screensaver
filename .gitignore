@@ -1,0 +1,32 @@
+# Vivado generierte Dateien
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.xpr
+*.wcfg
+*.webtalk/
+*.runs/
+*.tmp
+*.xsim/
+*.gen/
+
+# IP- und Blockdesign-Zwischendateien
+*.sdk
+*.hwh
+*.sysdef
+*.dsa
+
+# Bitstreams und Programmdateien
+*.bit
+*.bin
+*.mcs
+
+# Sonstige temporäre Dateien
+*.bak
+*.backup*
+*.lock
+

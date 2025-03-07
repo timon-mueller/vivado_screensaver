@@ -5,7 +5,7 @@
     "cell_name": "hdmi_tx_0",
     "component_reference": "realdigital.org:realdigital:hdmi_tx:1.0",
     "ip_revision": "2",
-    "gen_directory": "../../../../../../project_final2.gen/sources_1/bd/design_1/ip/design_1_hdmi_tx_0_0_2",
+    "gen_directory": ".",
     "parameters": {
       "component_parameters": {
         "MODE": [ { "value": "DVI", "resolve_type": "user", "usage": "all" } ],
@@ -32,14 +32,15 @@
         "SPEEDGRADE": [ { "value": "-1" } ],
         "STATIC_POWER": [ { "value": "" } ],
         "TEMPERATURE_GRADE": [ { "value": "" } ],
-        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE" } ],
-        "USE_RDI_GENERATION": [ { "value": "TRUE" } ]
+        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE", "usage": "all" } ],
+        "USE_RDI_GENERATION": [ { "value": "TRUE", "usage": "all" } ]
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
         "IPREVISION": [ { "value": "2" } ],
+        "LOCKEDBYUSER": [ { "value": "TRUE" } ],
         "MANAGED": [ { "value": "TRUE" } ],
-        "OUTPUTDIR": [ { "value": "../../../../../../project_final2.gen/sources_1/bd/design_1/ip/design_1_hdmi_tx_0_0_2" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],
         "SHAREDDIR": [ { "value": "../../ipshared" } ],
         "SWVERSION": [ { "value": "2022.2" } ],
